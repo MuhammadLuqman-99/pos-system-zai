@@ -1,0 +1,37 @@
+# Audio Notification Files
+
+This directory should contain the following audio files for real-time notifications:
+
+## Required Audio Files:
+
+1. **notification.mp3** - New order notification sound
+2. **kitchen-ready.mp3** - Kitchen item ready notification sound
+3. **payment-success.mp3** - Successful payment notification sound
+4. **payment-failed.mp3** - Failed payment notification sound
+5. **low-stock.mp3** - Low stock warning sound
+6. **table-changed.mp3** - Table status change notification sound
+
+## Audio Specifications:
+
+- **Format**: MP3 or WAV
+- **Duration**: 1-3 seconds (short and attention-grabbing)
+- **Volume**: Moderate (not too loud for restaurant environment)
+- **Quality**: Clear and distinct
+
+## Recommended Audio Sources:
+
+You can use:
+- Free sound effects websites (Freesound.org, Zapsplat)
+- POS system sound libraries
+- Custom recorded sounds
+- System notification sounds
+
+## File Naming Convention:
+
+- Use lowercase letters and hyphens
+- Be descriptive of the notification type
+- Keep names short and memorable
+
+## Implementation Note:
+
+The React hooks will automatically play these sounds when real-time events occur. Make sure the audio files are web-accessible and properly formatted.
